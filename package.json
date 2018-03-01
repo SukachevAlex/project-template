@@ -24,6 +24,7 @@
     "gulp-sourcemaps": "^2.6.3",
     "gulp-tinypng": "^1.0.2",
     "jquery": "^3.3.1",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "gulp-uglifyjs": "^0.6.2"
   }
 }

@@ -22,7 +22,7 @@ $.gulp.task('dev', $.gulp.series(
 
 $.gulp.task('build', $.gulp.series(
     'clean',
-    $.gulp.parallel('pug', 'jquery', 'fonts' ,'sass:build', 'libs:build', 'scripts', 'img:build'),
+    $.gulp.parallel('pug', 'jquery', 'fonts' ,'sass:build', 'libs:build', 'scripts', 'img:build', 'svg:copy'),
     $.gulp.parallel('watch', 'browser-sync')
 ));
 
