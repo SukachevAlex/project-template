@@ -23,9 +23,9 @@
     "gulp-sass": "^4.0.1",
     "gulp-sourcemaps": "^2.6.4",
     "gulp-tinypng": "^1.0.2",
+    "gulp-uglifyjs": "^0.6.2",
     "jquery": "^3.3.1",
-    "slick-carousel": "^1.8.1",
-    "gulp-uglifyjs": "^0.6.2"
+    "slick-carousel": "^1.8.1"
   },
   "dependencies": {
     "npm": "^6.0.0"
