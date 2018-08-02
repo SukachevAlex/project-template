@@ -1,5 +1,5 @@
-module.exports = function () {
-    $.gulp.task('sass:dev', function(){
+module.exports = function() {
+    $.gulp.task('sass:dev', function() {
         return $.gulp.src('app/styles/*.*')
             .pipe($.gp.sourcemaps.init())
             .pipe($.gp.sass({
@@ -23,7 +23,7 @@ module.exports = function () {
     });
 
 
-    $.gulp.task('sass:build', function(){
+    $.gulp.task('sass:build', function() {
         return $.gulp.src('app/styles/main.sass')
             .pipe($.gp.sass({
                 'include css': true
